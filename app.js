@@ -20,3 +20,5 @@ function  calculadora(comando){
         return"comando no valido";
 }
  }
+
+ console.log(calculadora(argv[2],+argv[3],+argv[4]));
